@@ -34,5 +34,29 @@ public class BookRepositoryTest {
         //counting book
         assertEquals(0,bookRepository.findAll().size());
         assertEquals(Long.valueOf(0), bookRepository.countAll());
+
+        Book book = new Book("isbn", " a title", 12F, 123, Language.ENGLISH, new Date(), "imageURL", "description");
+        book = bookRepository.create(book);
+        Long bookId = book.getId();
+
+        //check created book
+        assertNotNull(bookId);
+
+        //find created book
+        Book foundBook = bookRepository.find(bookId);
+
+        //check the found book
+        assertEquals(" a title",foundBook.getTitle());
+
+        assertEquals(1,bookRepository.findAll().size());
+        assertEquals(Long.valueOf(1), bookRepository.countAll());
+
+        // delete a book
+        bookRepository.delete(bookId);
+
+        assertEquals(0,bookRepository.findAll().size());
+        assertEquals(Long.valueOf(0), bookRepository.countAll());
+
+
     }
 }

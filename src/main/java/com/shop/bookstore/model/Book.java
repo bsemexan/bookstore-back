@@ -27,9 +27,23 @@ public class Book {
 
     private Integer nbOfPages;
 
-    private String imageUrl;
+    private String imageURL;
 
     private Language language;
+
+    public Book() {
+    }
+
+    public Book(String isbn, String title, Float unitCost, Integer nbOfPages, Language language, Date publicationDate, String imageURL, String description) {
+        this.isbn = isbn;
+        this.title = title;
+        this.unitCost = unitCost;
+        this.nbOfPages = nbOfPages;
+        this.language = language;
+        this.publicationDate = publicationDate;
+        this.imageURL = imageURL;
+        this.description = description;
+    }
 
     public Long getId() {
         return id;
@@ -87,12 +101,12 @@ public class Book {
         this.nbOfPages = nbOfPages;
     }
 
-    public String getImageUrl() {
-        return imageUrl;
+    public String getimageURL() {
+        return imageURL;
     }
 
-    public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
+    public void setimageURL(String imageUrl) {
+        this.imageURL = imageURL;
     }
 
     public Language getLanguage() {
@@ -113,7 +127,7 @@ public class Book {
                 ", isbn='" + isbn + '\'' +
                 ", publicationDate=" + publicationDate +
                 ", nbOfPages=" + nbOfPages +
-                ", imageUrl='" + imageUrl + '\'' +
+                ", imageUrl='" + imageURL + '\'' +
                 ", language=" + language +
                 '}';
     }
