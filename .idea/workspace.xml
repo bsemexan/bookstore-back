@@ -7,29 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5698bd0-894d-4da0-91c3-9d4d2357641c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/arquillianContainers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Arquillian_JUnit_1_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/bookstore_back_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/bookstore_back_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/bookstore_back_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/bookstore_back_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookstore-back.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-back.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back-1.0.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back-1.0/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back-1.0/WEB-INF/classes/META-INF/bookstore-back.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back-1.0/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back-1.0/WEB-INF/classes/com/shop/bookstore/model/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back-1.0/WEB-INF/classes/com/shop/bookstore/model/Language.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back-1.0/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/bookstore-back.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/bookstore/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/bookstore/model/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/bookstore/model/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/bookstore/model/Language.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shop/bookstore/repository/BookRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/shop/bookstore/repository/BookRepositoryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,8 +63,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/shop/bookstore/repository/BookRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+            <state relative-caret-position="375">
+              <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/arquillian.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/test-persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -115,6 +113,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shop/bookstore/repository/BookRepository.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/com/shop/bookstore/repository/BookRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/arquillian.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/META-INF/test-persistence.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/shop/bookstore/repository/BookRepositoryTest.java" />
       </list>
     </option>
@@ -157,21 +157,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="bookstore-back" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bookstore-back" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bookstore-back" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bookstore-back" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -194,6 +179,9 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.shop.bookstore.repository" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/META-INF" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -406,7 +394,7 @@
       <option name="presentableId" value="Default" />
       <updated>1557013328820</updated>
       <workItem from="1557013329995" duration="1270000" />
-      <workItem from="1557089433324" duration="2289000" />
+      <workItem from="1557089433324" duration="3706000" />
     </task>
     <task id="LOCAL-00001" summary="repository dir">
       <created>1557090706584</created>
@@ -415,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557090706584</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="book repository test init">
+      <created>1557092839982</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557092839982</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -425,9 +420,33 @@
     <history-entry file="WildFly_Remote__BookRepositoryTest - 2019.05.05 at 17h 45m 11s.xml">
       <configuration name="WildFly Remote: BookRepositoryTest" configurationId="ArquillianJUnit" />
     </history-entry>
+    <history-entry file="WildFly_Remote__BookRepositoryTest - 2019.05.05 at 17h 45m 39s.xml">
+      <configuration name="WildFly Remote: BookRepositoryTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="BookRepositoryTest - 2019.05.05 at 17h 46m 06s.xml">
+      <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="BookRepositoryTest - 2019.05.05 at 17h 49m 01s.xml">
+      <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="BookRepositoryTest - 2019.05.05 at 17h 50m 20s.xml">
+      <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="BookRepositoryTest - 2019.05.05 at 17h 51m 14s.xml">
+      <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="BookRepositoryTest - 2019.05.05 at 18h 01m 42s.xml">
+      <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="BookRepositoryTest - 2019.05.05 at 18h 02m 14s.xml">
+      <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="BookRepositoryTest - 2019.05.05 at 18h 16m 58s.xml">
+      <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3559000" />
+    <option name="totallyTimeSpent" value="4976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="192" width="1400" height="825" extended-state="0" />
@@ -476,7 +495,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="repository dir" />
-    <option name="LAST_COMMIT_MESSAGE" value="repository dir" />
+    <MESSAGE value="book repository test init" />
+    <option name="LAST_COMMIT_MESSAGE" value="book repository test init" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shop/bookstore/Book.java" />
@@ -542,10 +562,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/test-persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/arquillian.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/shop/bookstore/repository/BookRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        <state relative-caret-position="375">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
         </state>
       </provider>
     </entry>
