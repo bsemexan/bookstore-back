@@ -6,11 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5698bd0-894d-4da0-91c3-9d4d2357641c" name="Default Changelist" comment="book repository test - completion of integration test">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b5698bd0-894d-4da0-91c3-9d4d2357641c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/bookstore/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/bookstore/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/bookstore/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/bookstore/repository/BookRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/shop/bookstore/repository/BookRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/shop/bookstore/repository/BookRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/bookstore/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/bookstore/model/Book.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,11 +25,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/shop/bookstore/repository/BookRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="125">
+              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shop/bookstore/repository/BookRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#0#42#1" expanded="true" />
+                <element signature="e#0#27#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shop/bookstore/model/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,13 +100,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shop/bookstore/model/Language.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shop/bookstore/repository/BookRepository.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/com/shop/bookstore/repository/BookRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/arquillian.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/META-INF/test-persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/shop/bookstore/model/Book.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/shop/bookstore/repository/BookRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shop/bookstore/repository/BookRepository.java" />
       </list>
     </option>
   </component>
@@ -404,7 +430,7 @@
       <option name="presentableId" value="Default" />
       <updated>1557013328820</updated>
       <workItem from="1557013329995" duration="1270000" />
-      <workItem from="1557089433324" duration="5930000" />
+      <workItem from="1557089433324" duration="6664000" />
     </task>
     <task id="LOCAL-00001" summary="repository dir">
       <created>1557090706584</created>
@@ -427,19 +453,17 @@
       <option name="project" value="LOCAL" />
       <updated>1557095126471</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="book repository test - completion of integration test">
+      <created>1557097464467</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557097464467</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookRepositoryTest - 2019.05.05 at 18h 24m 47s.xml">
-      <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
-    </history-entry>
-    <history-entry file="BookRepositoryTest - 2019.05.05 at 18h 40m 20s.xml">
-      <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
-    </history-entry>
-    <history-entry file="BookRepositoryTest - 2019.05.05 at 18h 40m 52s.xml">
-      <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
-    </history-entry>
     <history-entry file="BookRepositoryTest - 2019.05.05 at 18h 45m 54s.xml">
       <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
     </history-entry>
@@ -461,17 +485,27 @@
     <history-entry file="BookRepositoryTest - 2019.05.05 at 19h 03m 07s.xml">
       <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
     </history-entry>
+    <history-entry file="BookRepositoryTest - 2019.05.05 at 19h 42m 15s.xml">
+      <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="BookRepositoryTest - 2019.05.05 at 19h 47m 46s.xml">
+      <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="BookRepositoryTest - 2019.05.05 at 19h 48m 24s.xml">
+      <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7200000" />
+    <option name="totallyTimeSpent" value="7934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="110" width="1400" height="825" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49390244" weight="0.2496318" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49390244" visible="true" weight="0.2496318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info id="Persistence" order="3" sideWeight="0.50609756" side_tool="true" visible="true" weight="0.2496318" />
+      <window_info id="Persistence" order="3" sideWeight="0.50609756" side_tool="true" weight="0.2496318" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
@@ -479,7 +513,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3287858" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3287858" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -488,7 +522,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3287858" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3287858" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3287858" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
@@ -554,16 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shop/bookstore/model/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -578,26 +602,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shop/bookstore/repository/BookRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shop/bookstore/model/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="389">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#0#42#1" expanded="true" />
-            <element signature="e#0#27#1" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/shop/bookstore/repository/BookRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="125">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shop/bookstore/repository/BookRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#42#1" expanded="true" />
+            <element signature="e#0#27#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
