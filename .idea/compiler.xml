@@ -10,7 +10,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="bookstore-back" target="12" />
+      <module name="bookstore-back" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bookstore-back" options="-endorseddirs $PROJECT_DIR$/target/endorsed" />
+    </option>
   </component>
 </project>
