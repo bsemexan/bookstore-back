@@ -1,0 +1,6 @@
+{
+  "uri": "http://localhost/bookstore-back-1.0/api/books",
+  "method": "GET",
+  "body": "",
+  "headers": {}
+}

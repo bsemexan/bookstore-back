@@ -11,37 +11,53 @@ import java.util.Date;
 @Entity
 public class Book {
 
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     private Long id;
 
-    @Column(length= 200)
+    @Column(length = 200)
     @NotNull
     @Size(min = 1, max = 200)
-
     private String title;
 
-    @Column(length= 1000)
+    @Column(length = 10000)
     @Size(min = 1, max = 10000)
     private String description;
 
+    @Column(name = "unit_cost")
     @Min(1)
     private Float unitCost;
 
+    @Column(length = 50)
     @NotNull
     @Size(min = 1, max = 50)
     private String isbn;
 
+    @Column(name = "publication_date")
     @Temporal(TemporalType.DATE)
     @Past
     private Date publicationDate;
 
+    @Column(name = "nb_of_pages")
     private Integer nbOfPages;
 
+    @Column(name = "image_url")
     private String imageURL;
 
+    @Enumerated
     private Language language;
 
     public Book() {
+    }
+
+    public Book(String isbn, String title, Float unitCost, Integer nbOfPages, Language language, String imageURL, String description) {
+        this.isbn = isbn;
+        this.title = title;
+        this.unitCost = unitCost;
+        this.nbOfPages = nbOfPages;
+        this.language = language;
+        this.imageURL = imageURL;
+        this.description = description;
     }
 
     public Book(String isbn, String title, Float unitCost, Integer nbOfPages, Language language, Date publicationDate, String imageURL, String description) {
@@ -127,8 +143,8 @@ public class Book {
         this.language = language;
     }
 
-    @java.lang.Override
-    public java.lang.String toString() {
+    @Override
+    public String toString() {
         return "Book{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
@@ -136,8 +152,6 @@ public class Book {
                 ", unitCost=" + unitCost +
                 ", isbn='" + isbn + '\'' +
                 ", publicationDate=" + publicationDate +
-                ", nbOfPages=" + nbOfPages +
-                ", imageUrl='" + imageURL + '\'' +
                 ", language=" + language +
                 '}';
     }

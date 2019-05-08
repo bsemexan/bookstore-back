@@ -13,6 +13,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="bookstore-back" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.3.0" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/bookstore-back/META-INF/MANIFEST.MF" />
