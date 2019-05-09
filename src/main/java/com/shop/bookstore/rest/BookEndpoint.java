@@ -2,6 +2,7 @@ package com.shop.bookstore.rest;
 
 import com.shop.bookstore.model.Book;
 import com.shop.bookstore.repository.BookRepository;
+import io.swagger.annotations.*;
 
 import javax.inject.Inject;
 import javax.validation.constraints.Min;
@@ -16,15 +17,20 @@ import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 import static javax.ws.rs.core.MediaType.TEXT_PLAIN;
 
 @Path("/books")
+@Api("Book")
 public class BookEndpoint {
 
     @Inject
     private BookRepository bookRepository;
 
-
     @POST
     @Consumes(APPLICATION_JSON)
-    public Response createBook(Book book, @Context UriInfo uriInfo) {
+    @ApiOperation("Creates a book given a JSon Book representation")
+    @ApiResponses({
+            @ApiResponse(code = 201, message = "The book is created"),
+            @ApiResponse(code = 415, message = "Format is not JSon")
+    })
+    public Response createBook(@ApiParam(value = "Book to be created", required = true) Book book, @Context UriInfo uriInfo) {
         book = bookRepository.create(book);
         URI createdURI = uriInfo.getAbsolutePathBuilder().path(book.getId().toString()).build();
         return Response.created(createdURI).build();
@@ -33,6 +39,12 @@ public class BookEndpoint {
     @GET
     @Path("/{id : \\d+}")
     @Produces(APPLICATION_JSON)
+    @ApiOperation(value = "Returns a book given an id", response = Book.class)
+    @ApiResponses({
+            @ApiResponse(code = 200, message = "Book found"),
+            @ApiResponse(code = 400, message = "Invalid input. Id cannot be lower than 1"),
+            @ApiResponse(code = 404, message = "Book not found")
+    })
     public Response getBook(@PathParam("id") @Min(1) Long id) {
         Book book = bookRepository.find(id);
 
@@ -44,6 +56,12 @@ public class BookEndpoint {
 
     @DELETE
     @Path("/{id : \\d+}")
+    @ApiOperation("Deletes a book given an id")
+    @ApiResponses({
+            @ApiResponse(code = 204, message = "Book has been deleted"),
+            @ApiResponse(code = 400, message = "Invalid input. Id cannot be lower than 1"),
+            @ApiResponse(code = 500, message = "Book not found")
+    })
     public Response deleteBook(@PathParam("id") @Min(1) Long id) {
         bookRepository.delete(id);
         return Response.noContent().build();
@@ -51,6 +69,11 @@ public class BookEndpoint {
 
     @GET
     @Produces(APPLICATION_JSON)
+    @ApiOperation(value = "Returns all the books", response = Book.class, responseContainer = "List")
+    @ApiResponses({
+            @ApiResponse(code = 200, message = "Books found"),
+            @ApiResponse(code = 204, message = "No books found"),
+    })
     public Response getBooks() {
         List<Book> books = bookRepository.findAll();
 
@@ -63,6 +86,11 @@ public class BookEndpoint {
     @GET
     @Path("/count")
     @Produces(TEXT_PLAIN)
+    @ApiOperation(value = "Returns the number of books", response = Long.class)
+    @ApiResponses({
+            @ApiResponse(code = 200, message = "Number of books found"),
+            @ApiResponse(code = 204, message = "No books found"),
+    })
     public Response countBooks() {
         Long nbOfBooks = bookRepository.countAll();
 
