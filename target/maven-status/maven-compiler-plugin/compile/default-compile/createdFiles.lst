@@ -1,0 +1,8 @@
+com/shop/bookstore/util/NumberGenerator.class
+com/shop/bookstore/model/Language.class
+com/shop/bookstore/util/TextUtil.class
+com/shop/bookstore/rest/BookEndpoint.class
+com/shop/bookstore/repository/BookRepository.class
+com/shop/bookstore/rest/JAXRSConfiguration.class
+com/shop/bookstore/model/Book.class
+com/shop/bookstore/util/IsbnGenerator.class

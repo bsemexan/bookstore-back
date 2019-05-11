@@ -16,6 +16,8 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: io.swagger:swagger-annotations:1.5.12" />
           <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.3.0" />
+          <element id="library" level="project" name="Maven: com.thetransactioncompany:cors-filter:2.1" />
+          <element id="library" level="project" name="Maven: com.thetransactioncompany:java-property-utils:1.9.1" />
         </element>
       </element>
       <element id="directory" name="META-INF">

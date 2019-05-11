@@ -70,7 +70,7 @@ public class BookEndpoint {
     @GET
     @Produces(APPLICATION_JSON)
     @ApiOperation(value = "Returns all the books", response = Book.class, responseContainer = "List")
-    @ApiResponses({
+    @ApiResponses( {
             @ApiResponse(code = 200, message = "Books found"),
             @ApiResponse(code = 204, message = "No books found"),
     })

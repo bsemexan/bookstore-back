@@ -6,14 +6,53 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5698bd0-894d-4da0-91c3-9d4d2357641c" name="Default Changelist" comment="rest contract">
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+    <list default="true" id="b5698bd0-894d-4da0-91c3-9d4d2357641c" name="Default Changelist" comment="angular navigation">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/bookstore_back_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/bookstore_back_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookstore-back.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-back.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/bookstore/rest/BookEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/bookstore/rest/BookEndpoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shop/bookstore/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/bookstore/model/Book.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shop/bookstore/model/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/bookstore/model/Language.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,90 +80,41 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/app.module.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <folding>
-                    <element signature="e#0#58#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="840">
-                  <caret line="56" selection-start-line="56" selection-end-line="56" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="173">
-                  <caret line="38" column="68" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/app.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="241" column="8" selection-start-line="241" selection-start-column="8" selection-end-line="241" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shop/bookstore/rest/CORSFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shop/bookstore/rest/BookEndpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -132,12 +122,13 @@
         <option value="Enum" />
         <option value="cdi.beans_1_1" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -160,17 +151,21 @@
         <option value="$PROJECT_DIR$/src/test/java/com/shop/bookstore/repository/BookRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/shop/bookstore/rest/BookEndpointTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shop/bookstore/model/Book.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shop/bookstore/rest/BookEndpoint.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/swagger.json" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/bookstore-front/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.ts" />
-        <option value="$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.html" />
-        <option value="$PROJECT_DIR$/bookstore-front/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/bookstore-front/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.ts" />
-        <option value="$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.ts" />
-        <option value="$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.html" />
         <option value="$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.html" />
+        <option value="$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.html" />
+        <option value="$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.html" />
+        <option value="$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.ts" />
+        <option value="$PROJECT_DIR$/bookstore-front/src/app/service/api/book.service.ts" />
+        <option value="$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.ts" />
+        <option value="$PROJECT_DIR$/bookstore-front/package.json" />
+        <option value="$PROJECT_DIR$/bookstore-front/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/bookstore-front/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shop/bookstore/rest/CORSFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shop/bookstore/rest/BookEndpoint.java" />
       </list>
     </option>
   </component>
@@ -181,11 +176,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="768" />
-    <option name="y" value="23" />
-    <option name="width" value="912" />
-    <option name="height" value="1027" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="52" />
+    <option name="width" value="1680" />
+    <option name="height" value="656" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -195,45 +189,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="bookstore-back" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bookstore-back" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bookstore-back" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bookstore-back" type="462c0819:PsiDirectoryNode" />
-              <item name="bookstore-front" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bookstore-back" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bookstore-back" type="462c0819:PsiDirectoryNode" />
-              <item name="bookstore-front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bookstore-back" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bookstore-back" type="462c0819:PsiDirectoryNode" />
-              <item name="bookstore-front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bookstore-back" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bookstore-back" type="462c0819:PsiDirectoryNode" />
-              <item name="bookstore-front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="book-detail" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -501,7 +459,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Angular CLI Server" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/bookstore-front/package.json" />
+      <package-json value="$PROJECT_DIR$/../bookstore-front/package.json" />
       <command value="run" />
       <scripts>
         <script value="start" />
@@ -535,7 +493,9 @@
       <workItem from="1557282104096" duration="2942000" />
       <workItem from="1557288778062" duration="1331000" />
       <workItem from="1557358135958" duration="4862000" />
-      <workItem from="1557448987287" duration="3752000" />
+      <workItem from="1557448987287" duration="9507000" />
+      <workItem from="1557512241893" duration="4533000" />
+      <workItem from="1557536667261" duration="403000" />
     </task>
     <task id="LOCAL-00001" summary="repository dir">
       <created>1557090706584</created>
@@ -607,7 +567,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557363146404</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="angular added">
+      <created>1557453291959</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1557453291959</updated>
+    </task>
+    <task id="LOCAL-00012" summary="angular navigation">
+      <created>1557461057415</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1557461057415</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -643,13 +617,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29409000" />
+    <option name="totallyTimeSpent" value="40100000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="52" width="1680" height="656" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49249658" visible="true" weight="0.1941392" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49249658" visible="true" weight="0.4084249" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" sideWeight="0.50609756" side_tool="true" weight="0.2496318" />
@@ -660,13 +633,13 @@
       <window_info id="Web" order="8" sideWeight="0.5075034" side_tool="true" weight="0.2569956" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3287858" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3280142" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3287858" />
-      <window_info anchor="bottom" x="4" y="365" width="1358" height="241" id="Terminal" order="8" visible="true" weight="0.13796791" />
+      <window_info anchor="bottom" x="4" y="365" width="1358" height="241" id="Terminal" order="8" weight="0.2287234" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3287858" />
@@ -675,7 +648,7 @@
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3287858" />
       <window_info anchor="bottom" id="REST Client" order="15" show_stripe_button="false" side_tool="true" weight="0.3287858" />
       <window_info active="true" anchor="bottom" id="Database Console" order="16" visible="true" weight="0.3287858" />
-      <window_info anchor="bottom" id="TypeScript" order="17" />
+      <window_info anchor="bottom" id="TypeScript" order="17" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -691,6 +664,49 @@
       <window_info anchor="right" id="ReST Console" order="12" weight="0.6332843" />
       <window_info anchor="right" id="RestServices" order="13" weight="0.3298969" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49249658" visible="true" weight="0.4035409" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Persistence" order="3" sideWeight="0.50609756" side_tool="true" weight="0.2496318" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" sideWeight="0.5075034" side_tool="true" weight="0.2569956" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3287858" />
+      <window_info active="true" anchor="bottom" x="4" y="365" width="1358" height="241" id="Terminal" order="8" visible="true" weight="0.2287234" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3287858" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3287858" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3287858" />
+      <window_info anchor="bottom" id="REST Client" order="15" show_stripe_button="false" side_tool="true" weight="0.3287858" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="16" visible="true" weight="0.3287858" />
+      <window_info anchor="bottom" id="TypeScript" order="17" weight="0.32941177" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="JSF" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3298969" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="CDI" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+      <window_info anchor="right" id="ReST Console" order="12" weight="0.6332843" />
+      <window_info anchor="right" id="RestServices" order="13" weight="0.3298969" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -704,7 +720,9 @@
     <MESSAGE value="book repository test - completion of injection" />
     <MESSAGE value="bookendpoint + test" />
     <MESSAGE value="rest contract" />
-    <option name="LAST_COMMIT_MESSAGE" value="rest contract" />
+    <MESSAGE value="angular added" />
+    <MESSAGE value="angular navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="angular navigation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shop/bookstore/Book.java" />
@@ -827,16 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shop/bookstore/rest/BookEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/swagger.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
@@ -844,90 +852,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.ts" />
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.ts" />
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.html" />
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.html" />
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.html" />
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/app.module.ts" />
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/app-routing.module.ts" />
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/service/api/book.service.ts" />
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.ts" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-front/package.json" />
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/app.component.ts" />
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/app.component.html" />
+    <entry file="file://$PROJECT_DIR$/bookstore-front/angular.json" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3615">
+        <state relative-caret-position="355">
           <caret line="241" column="8" selection-start-line="241" selection-start-column="8" selection-end-line="241" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/angular.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shop/bookstore/rest/BookEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="280">
+          <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shop/bookstore/rest/CORSFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="38" column="68" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
